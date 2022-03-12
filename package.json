@@ -1,6 +1,7 @@
 {
   "name": "gh-next",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "NextJS project for ghigliottina.info website",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -19,5 +20,7 @@
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
     "typescript": "4.6.2"
-  }
+  },
+  "author": "Cristiano Tofani",
+  "license": "ISC"
 }
