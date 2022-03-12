@@ -2,8 +2,12 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
-    "lib": ["es6", "dom", "es2019"],
-    "jsx": "react",
+    "lib": [
+      "es6",
+      "dom",
+      "es2019"
+    ],
+    "jsx": "preserve",
     "noEmit": true,
     "moduleResolution": "node",
     "importHelpers": true,
@@ -18,9 +22,17 @@
     "noUnusedLocals": true,
     "strictFunctionTypes": true,
     "skipLibCheck": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "resolveJsonModule": true
   },
   "exclude": [
     "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }

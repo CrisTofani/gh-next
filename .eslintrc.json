@@ -86,24 +86,13 @@
     "react/jsx-key": "error",
     "react/jsx-no-bind": ["error", { "allowArrowFunctions": true }],
     "functional/no-let": "error",
-    "functional/immutable-data": "error",
-    "sonarjs/no-small-switch": "off",
-    "sonarjs/no-duplicate-string": "off",
-    "sonarjs/no-nested-template-literals": "warn"
+    "functional/immutable-data": "error"
   },
   "overrides": [
     {
       "files": ["**/*.test.*"],
       "rules": {
         "@typescript-eslint/no-non-null-assertion": "off"
-      }
-    },
-    {
-      "files": ["./**/*.ts"],
-      "excludedFiles": ["./**/*.test.ts"],
-      "rules": {
-        "@jambit/typed-redux-saga/use-typed-effects": ["error", "macro"],
-        "@jambit/typed-redux-saga/delegate-effects": "error"
       }
     }
   ],
